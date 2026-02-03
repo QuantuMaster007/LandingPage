@@ -4,8 +4,8 @@
     <link rel="icon" href="data:,">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Cross-Functional Decision Making: Framing trade-offs across engineering, operations, finance, and supply chain to enable timely, data-driven decisions at scale.">
-    <title>Cross-Functional Decision Making — Sourabh Tarodekar | Technical Program Management</title>
+    <meta name="description" content="Supplier and Partner Execution: Performance tracking, capacity alignment, and accountability across tier-1 suppliers.">
+    <title>Supplier Execution — Sourabh Tarodekar | Technical Program Management</title>
     <script src="https://unpkg.com/lucide@latest"></script>
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -72,6 +72,15 @@
         .step-title { font-size: 1.125rem; font-weight: 600; color: var(--text-primary); margin-bottom: 0.5rem; }
         .step-content { color: var(--text-secondary); line-height: 1.7; }
         
+        .table-container { margin: 2rem 0; overflow-x: auto; border: 1px solid var(--border); background: var(--bg-secondary); }
+        table { width: 100%; border-collapse: collapse; font-size: 0.9375rem; }
+        th { text-align: left; padding: 1rem 1.5rem; background: var(--bg-tertiary); color: var(--text-tertiary); font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; font-size: 0.8rem; border-bottom: 1px solid var(--border); }
+        td { padding: 1rem 1.5rem; border-bottom: 1px solid var(--border); color: var(--text-secondary); }
+        tr:last-child td { border-bottom: none; }
+        .status-green { color: var(--success); font-weight: 600; }
+        .status-yellow { color: var(--warning); font-weight: 600; }
+        .status-red { color: var(--danger); font-weight: 600; }
+        
         .story-box { margin: 3rem 0; padding: 3rem; background: var(--bg-secondary); border: 1px solid var(--border); position: relative; }
         .story-label { position: absolute; top: -12px; left: 2rem; background: var(--bg-primary); padding: 0.25rem 1rem; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--accent); font-weight: 600; border: 1px solid var(--border); }
         .story-grid { display: grid; grid-template-columns: 80px 1fr; gap: 2rem; margin-bottom: 2rem; }
@@ -113,6 +122,7 @@
             .story-box { padding: 2rem; }
             .story-grid { grid-template-columns: 1fr; gap: 0.5rem; }
             .story-letter { font-size: 1.5rem; }
+            th, td { padding: 0.75rem 1rem; font-size: 0.875rem; }
             footer { flex-direction: column; gap: 1.5rem; text-align: center; padding: 2rem; }
         }
     </style>
@@ -144,26 +154,31 @@
                 <a href="../capabilities.html">← Back to Capabilities</a>
             </nav>
 
+        <div class="breadcrumb">
+            <a href="../capabilities.html">Capabilities</a>
+            <span>/</span>
+            <span>Suppliers</span>
+        </div>
         
         <div class="eyebrow">Execution Domain</div>
-        <h1>Cross-Functional <strong>Decision Making</strong></h1>
-        <p class="lead">Framing trade-offs across engineering, operations, finance, and supply chain to enable timely, data-driven decisions at scale.</p>
+        <h1>Supplier & Partner <strong>Execution</strong></h1>
+        <p class="lead">Driving accountability and performance across global suppliers and strategic partners.</p>
     </section>
 
     <main class="container">
         <div class="content-section">
             <h2>Capability Overview</h2>
-            <p>I frame complex trade-offs to enable timely, data-driven decisions across engineering, operations, finance, and supply chain functions. My approach transforms ambiguous situations into clear decision frameworks with quantified options and explicit consequences.</p>
+            <p>I manage execution across tier-1 suppliers and strategic partners, ensuring readiness, capacity alignment, and delivery performance across high-mix, capital-intensive hardware programs.</p>
         </div>
 
         <div class="content-section">
             <h3>What I Own</h3>
             <ul>
-                <li>Trade-off analysis across cost, schedule, quality, and capacity</li>
-                <li>Decision-ready narratives with clear recommendations</li>
-                <li>Risk quantification and mitigation option development</li>
-                <li>Cross-functional alignment and stakeholder consensus building</li>
-                <li>Post-decision tracking and outcome validation</li>
+                <li>Supplier readiness and performance tracking</li>
+                <li>Lead-time and capacity risk mitigation</li>
+                <li>Quote normalization and cost breakdowns</li>
+                <li>RFP/RFQ participation and execution follow-through</li>
+                <li>Supplier escalation and recovery plans</li>
             </ul>
         </div>
 
@@ -171,64 +186,122 @@
         <div class="framework">
             <div class="framework-step">
                 <span class="step-number">01</span>
-                <div class="step-title">Frame the Problem</div>
-                <div class="step-content">Clearly define the decision to be made, identify key stakeholders, and establish decision criteria. Map constraints across functions and surface hidden dependencies that could impact outcomes.</div>
+                <div class="step-title">Supplier Risk Mapping</div>
+                <div class="step-content">Map lead-time concentration, capacity constraints, and geographic exposure. Identify single-source vulnerabilities and concentration risk.</div>
             </div>
             <div class="framework-step">
                 <span class="step-number">02</span>
-                <div class="step-title">Quantify Options</div>
-                <div class="step-content">Develop 2-3 viable options with explicit trade-offs. Model financial impact, schedule implications, and technical risk for each path. Present data in formats that enable comparison and informed choice.</div>
+                <div class="step-title">Performance Governance</div>
+                <div class="step-content">Track OTD, fill rate, FA aging, and SCCT (Supplier Component Cycle Time). Conduct weekly supplier reviews with data-driven scorecards.</div>
             </div>
             <div class="framework-step">
                 <span class="step-number">03</span>
-                <div class="step-title">Enable Closure</div>
-                <div class="step-content">Present recommendation with supporting rationale. Facilitate discussion to surface concerns and build consensus. Document decision, rationale, and success criteria for future reference.</div>
+                <div class="step-title">Recovery & Improvement</div>
+                <div class="step-content">Execute dual-/multi-sourcing strategies. Drive process optimization with suppliers through collaborative improvement programs.</div>
             </div>
         </div>
 
-        <h2>Example Decision Framework</h2>
+        <h2>Artifacts & Dashboards</h2>
+        
+        <h3>Supplier Performance Dashboard</h3>
+        <div class="table-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Supplier</th>
+                        <th>Commodity</th>
+                        <th>OTD</th>
+                        <th>Lead Time</th>
+                        <th>Risk Level</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>RF Generators Inc</td>
+                        <td>Power Electronics</td>
+                        <td>92%</td>
+                        <td>26 wks</td>
+                        <td class="status-red">High</td>
+                    </tr>
+                    <tr>
+                        <td>Precision Sensors Ltd</td>
+                        <td>Controls</td>
+                        <td>97%</td>
+                        <td>18 wks</td>
+                        <td class="status-yellow">Medium</td>
+                    </tr>
+                    <tr>
+                        <td>Flow Systems Corp</td>
+                        <td>Valves</td>
+                        <td>95%</td>
+                        <td>22 wks</td>
+                        <td class="status-yellow">Medium</td>
+                    </tr>
+                    <tr>
+                        <td>ConnectCo Global</td>
+                        <td>Interconnect</td>
+                        <td>98%</td>
+                        <td>12 wks</td>
+                        <td class="status-green">Low</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
         <div class="story-box">
-            <div class="story-label">NPI Build Location Trade-Off</div>
+            <div class="story-label">Execution Story</div>
+            
             <div class="story-grid">
-                <div class="story-letter">C</div>
+                <div class="story-letter">S</div>
                 <div class="story-content">
-                    <h4>Context</h4>
-                    <p>New product required manufacturing location decision between domestic pilot facility and offshore contract manufacturer. Decision needed within 2 weeks to maintain launch schedule.</p>
+                    <h4>Situation</h4>
+                    <p>High lead-time variability threatening NPI schedules, with inconsistent supplier performance across critical component categories.</p>
                 </div>
             </div>
+            
+            <div class="story-grid">
+                <div class="story-letter">T</div>
+                <div class="story-content">
+                    <h4>Task</h4>
+                    <p>Stabilize supplier performance and reduce lead-time variability to protect CTB during high-engineering-change cycles.</p>
+                </div>
+            </div>
+            
             <div class="story-grid">
                 <div class="story-letter">A</div>
                 <div class="story-content">
-                    <h4>Analysis</h4>
-                    <p>Developed 3-option framework comparing total landed cost, schedule risk, quality control capability, and IP protection. Modeled financial impact across 6-month and 24-month horizons. Identified critical dependencies for each path.</p>
+                    <h4>Action</h4>
+                    <p>Implemented dual-sourcing for 3 critical high-risk commodities. Normalized supplier quotes with should-cost models. Drove recovery plans with clear KPIs and weekly accountability reviews.</p>
                 </div>
             </div>
+            
             <div class="story-grid">
-                <div class="story-letter">O</div>
+                <div class="story-letter">R</div>
                 <div class="story-content">
-                    <h4>Outcome</h4>
-                    <p>Recommended hybrid approach: domestic pilot for first 10K units to stabilize yield, then transfer to offshore CM. Decision made in 1 week with full stakeholder alignment. Approach reduced schedule risk while achieving long-term cost targets.</p>
+                    <h4>Result</h4>
+                    <p>Reduced lead-time variability by 30% through supplier capability improvements. Improved supplier OTD by 18–30% via scorecarding and escalation protocols. Protected CTB during high-change cycles.</p>
                 </div>
             </div>
         </div>
 
         <div class="impact-box">
-            <div class="impact-title">Decision Impact Metrics</div>
+            <div class="impact-title">Business Impact</div>
             <ul class="impact-list">
-                <li>Average decision cycle time reduced from 4 weeks to 1.5 weeks through structured frameworks</li>
-                <li>95% of major decisions reached consensus without escalation or rework</li>
-                <li>Post-decision tracking showed 85% of outcomes matched initial projections</li>
+                <li>Resilient supplier ecosystem with reduced single-source dependencies</li>
+                <li>Predictable material flow through performance-based accountability</li>
+                <li>Strong supplier relationships built on transparency and data</li>
+                <li>Cost optimization through competitive sourcing and should-cost analysis</li>
             </ul>
         </div>
 
         <div class="page-nav">
-            <a href="governance.html" class="nav-link">
-                <i data-lucide="arrow-left" size="16"></i>
-                Program Governance
+            <a href="cm-oem.html" class="nav-link">
+                <i data-lucide="arrow-left" size="18"></i>
+                Previous: CM & OEM
             </a>
-            <a href="product-technology.html" class="nav-link next">
-                Product Development
-                <i data-lucide="arrow-right" size="16"></i>
+            <a href="governance.html" class="nav-link next">
+                Next: Governance
+                <i data-lucide="arrow-right" size="18"></i>
             </a>
         </div>
     </main>
@@ -236,8 +309,6 @@
     <footer>
         <div class="footer-left">San Francisco Bay Area · Hardware · Manufacturing · Operations</div>
         <div class="footer-right">
-            <a class="social-link">LinkedIn</a>
-            <a class="social-link">Email</a>
         </div>
     </footer>
 
@@ -280,60 +351,50 @@
             constructor() {
                 this.reset();
             }
-
             reset() {
                 this.x = Math.round((Math.random() * window.innerWidth) / GRID_SIZE) * GRID_SIZE;
                 this.y = Math.round((Math.random() * window.innerHeight) / GRID_SIZE) * GRID_SIZE;
                 this.direction = Math.floor(Math.random() * 4);
-                this.speed = 0.08;
+                this.speed = 0.1;
                 this.opacity = 0;
                 this.targetOpacity = Math.random() * 0.08 + 0.02;
                 this.path = [{x: this.x, y: this.y}];
                 this.segmentLength = 0;
-                this.maxSegment = Math.random() * 4 + 3;
+                this.maxSegment = Math.random() * 3 + 2;
             }
-
             update() {
                 if (this.opacity < this.targetOpacity) {
                     this.opacity += 0.002;
                 }
-
                 switch(this.direction) {
                     case 0: this.y -= this.speed; break;
                     case 1: this.x += this.speed; break;
                     case 2: this.y += this.speed; break;
                     case 3: this.x -= this.speed; break;
                 }
-
                 this.segmentLength += this.speed / GRID_SIZE;
-
                 if (this.segmentLength >= this.maxSegment) {
                     if (Math.random() > 0.5) {
                         const turn = Math.random() > 0.5 ? 1 : -1;
                         this.direction = (this.direction + turn + 4) % 4;
                     }
                     this.segmentLength = 0;
-                    this.maxSegment = Math.random() * 4 + 3;
+                    this.maxSegment = Math.random() * 3 + 2;
                     this.path.push({x: this.x, y: this.y});
                     if (this.path.length > 4) this.path.shift();
                 }
-
-                if (this.x < -100 || this.x > width + 100 || 
-                    this.y < -100 || this.y > height + 100) {
+                if (this.x < -100 || this.x > width + 100 || this.y < -100 || this.y > height + 100) {
                     this.reset();
                 }
             }
-
             draw() {
                 const accentColor = getComputedStyle(document.body).getPropertyValue('--accent').trim();
-                
                 ctx.beginPath();
                 ctx.strokeStyle = accentColor;
                 ctx.globalAlpha = this.opacity;
                 ctx.lineWidth = 0.5;
                 ctx.lineCap = 'round';
                 ctx.lineJoin = 'round';
-
                 if (this.path.length > 0) {
                     ctx.moveTo(this.path[0].x, this.path[0].y);
                     for (let point of this.path) {
@@ -342,7 +403,6 @@
                     ctx.lineTo(this.x, this.y);
                 }
                 ctx.stroke();
-
                 ctx.globalAlpha = 1;
             }
         }

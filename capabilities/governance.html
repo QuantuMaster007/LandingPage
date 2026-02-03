@@ -4,8 +4,8 @@
     <link rel="icon" href="data:,">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Cross-Functional Decision Making: Framing trade-offs across engineering, operations, finance, and supply chain to enable timely, data-driven decisions at scale.">
-    <title>Cross-Functional Decision Making — Sourabh Tarodekar | Technical Program Management</title>
+    <meta name="description" content="Program Leadership and Governance: Operating cadence, decision frameworks, and executive visibility for predictable execution at scale.">
+    <title>Program Leadership & Governance — Sourabh Tarodekar | Technical Program Management</title>
     <script src="https://unpkg.com/lucide@latest"></script>
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -71,6 +71,18 @@
         .step-number { font-size: 0.875rem; font-weight: 600; color: var(--accent); margin-bottom: 0.5rem; display: block; }
         .step-title { font-size: 1.125rem; font-weight: 600; color: var(--text-primary); margin-bottom: 0.5rem; }
         .step-content { color: var(--text-secondary); line-height: 1.7; }
+        
+        .artifact-box { margin: 2rem 0; padding: 2rem; background: var(--bg-secondary); border: 1px solid var(--border); border-left: 3px solid var(--accent); }
+        .artifact-title { font-size: 0.875rem; font-weight: 600; color: var(--accent); margin-bottom: 1.5rem; text-transform: uppercase; letter-spacing: 0.1em; }
+        .artifact-list { list-style: none; margin: 0; padding: 0; }
+        .artifact-list li { padding: 1rem 0; border-bottom: 1px solid var(--border); display: flex; align-items: flex-start; gap: 1rem; color: var(--text-secondary); }
+        .artifact-list li:last-child { border-bottom: none; }
+        .artifact-list li strong { color: var(--text-primary); font-weight: 600; display: block; margin-bottom: 0.25rem; }
+        
+        .status-indicator { width: 8px; height: 8px; border-radius: 50%; margin-top: 0.5rem; flex-shrink: 0; }
+        .status-green { background: var(--success); }
+        .status-yellow { background: var(--warning); }
+        .status-red { background: var(--danger); }
         
         .story-box { margin: 3rem 0; padding: 3rem; background: var(--bg-secondary); border: 1px solid var(--border); position: relative; }
         .story-label { position: absolute; top: -12px; left: 2rem; background: var(--bg-primary); padding: 0.25rem 1rem; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--accent); font-weight: 600; border: 1px solid var(--border); }
@@ -144,26 +156,31 @@
                 <a href="../capabilities.html">← Back to Capabilities</a>
             </nav>
 
+        <div class="breadcrumb">
+            <a href="../capabilities.html">Capabilities</a>
+            <span>/</span>
+            <span>Program Governance</span>
+        </div>
         
         <div class="eyebrow">Execution Domain</div>
-        <h1>Cross-Functional <strong>Decision Making</strong></h1>
-        <p class="lead">Framing trade-offs across engineering, operations, finance, and supply chain to enable timely, data-driven decisions at scale.</p>
+        <h1>Program Leadership & <strong>Governance</strong></h1>
+        <p class="lead">Establishing structure that enables teams to execute under ambiguity without losing control—operating cadence, decision frameworks, and executive visibility.</p>
     </section>
 
     <main class="container">
         <div class="content-section">
             <h2>Capability Overview</h2>
-            <p>I frame complex trade-offs to enable timely, data-driven decisions across engineering, operations, finance, and supply chain functions. My approach transforms ambiguous situations into clear decision frameworks with quantified options and explicit consequences.</p>
+            <p>I establish operating cadence, decision frameworks, and executive visibility that allow teams to execute under ambiguity without losing control. My governance approach creates predictability through structure while maintaining the flexibility needed for hardware development.</p>
         </div>
 
         <div class="content-section">
             <h3>What I Own</h3>
             <ul>
-                <li>Trade-off analysis across cost, schedule, quality, and capacity</li>
-                <li>Decision-ready narratives with clear recommendations</li>
-                <li>Risk quantification and mitigation option development</li>
-                <li>Cross-functional alignment and stakeholder consensus building</li>
-                <li>Post-decision tracking and outcome validation</li>
+                <li>Integrated schedules and milestones with cross-functional dependencies</li>
+                <li>RAID (Risks, Actions, Issues, Decisions) and top-issue management</li>
+                <li>Executive status reporting and decision-ready narratives</li>
+                <li>Cross-functional alignment across engineering, operations, and finance</li>
+                <li>Operating rhythm and meeting cadence design</li>
             </ul>
         </div>
 
@@ -171,64 +188,141 @@
         <div class="framework">
             <div class="framework-step">
                 <span class="step-number">01</span>
-                <div class="step-title">Frame the Problem</div>
-                <div class="step-content">Clearly define the decision to be made, identify key stakeholders, and establish decision criteria. Map constraints across functions and surface hidden dependencies that could impact outcomes.</div>
+                <div class="step-title">Structure Early</div>
+                <div class="step-content">Establish clear ownership and milestones before execution begins. Map dependencies across functions and identify critical path convergence points. Create visibility into handoffs and decision gates.</div>
             </div>
             <div class="framework-step">
                 <span class="step-number">02</span>
-                <div class="step-title">Quantify Options</div>
-                <div class="step-content">Develop 2-3 viable options with explicit trade-offs. Model financial impact, schedule implications, and technical risk for each path. Present data in formats that enable comparison and informed choice.</div>
+                <div class="step-title">Operate Consistently</div>
+                <div class="step-content">Maintain weekly execution rhythm with fact-based status reporting. Use standardized metrics that cut across functional silos. Ensure every meeting has clear owner, action, and closure discipline.</div>
             </div>
             <div class="framework-step">
                 <span class="step-number">03</span>
-                <div class="step-title">Enable Closure</div>
-                <div class="step-content">Present recommendation with supporting rationale. Facilitate discussion to surface concerns and build consensus. Document decision, rationale, and success criteria for future reference.</div>
+                <div class="step-title">Escalate Intentionally</div>
+                <div class="step-content">Present decision-ready narratives with clear trade-off framing. Surface risks early with mitigation options, not just problems. Enable leadership to make informed choices without rework.</div>
             </div>
         </div>
 
-        <h2>Example Decision Framework</h2>
+        <h2>Artifacts & Dashboards</h2>
+        
+        <div class="artifact-box">
+            <div class="artifact-title">Executive Status Snapshot</div>
+            <ul class="artifact-list">
+                <li>
+                    <div class="status-indicator status-green"></div>
+                    <div>
+                        <strong>Schedule Health</strong>
+                        Milestone adherence, critical path status, and buffer consumption
+                    </div>
+                </li>
+                <li>
+                    <div class="status-indicator status-yellow"></div>
+                    <div>
+                        <strong>Cost / CapEx Risk</strong>
+                        Budget variance, capitalization timing, and forecast accuracy
+                    </div>
+                </li>
+                <li>
+                    <div class="status-indicator status-green"></div>
+                    <div>
+                        <strong>CTB Readiness</strong>
+                        Build-kit completeness, material availability, and factory readiness
+                    </div>
+                </li>
+                <li>
+                    <div class="status-indicator status-red"></div>
+                    <div>
+                        <strong>Top 3 Risks & Mitigations</strong>
+                        Highest-impact threats with clear ownership and recovery plans
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <div class="artifact-box">
+            <div class="artifact-title">RAID Operating Rhythm</div>
+            <ul class="artifact-list">
+                <li>
+                    <div>
+                        <strong>Risks</strong>
+                        Probability-weighted threats with mitigation owners and trigger dates
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <strong>Actions</strong>
+                        Cross-functional tasks with clear owners, due dates, and blockers
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <strong>Issues</strong>
+                        Active problems with containment actions and root cause owners
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <strong>Decisions</strong>
+                        Pending leadership calls with options, impacts, and recommendations
+                    </div>
+                </li>
+            </ul>
+        </div>
+
         <div class="story-box">
-            <div class="story-label">NPI Build Location Trade-Off</div>
+            <div class="story-label">Execution Story</div>
+            
             <div class="story-grid">
-                <div class="story-letter">C</div>
+                <div class="story-letter">S</div>
                 <div class="story-content">
-                    <h4>Context</h4>
-                    <p>New product required manufacturing location decision between domestic pilot facility and offshore contract manufacturer. Decision needed within 2 weeks to maintain launch schedule.</p>
+                    <h4>Situation</h4>
+                    <p>Multiple concurrent programs with competing priorities, inconsistent reporting formats, and reactive escalation patterns causing decision delays and leadership frustration.</p>
                 </div>
             </div>
+            
+            <div class="story-grid">
+                <div class="story-letter">T</div>
+                <div class="story-content">
+                    <h4>Task</h4>
+                    <p>Establish unified operating cadence that creates predictability without bureaucracy, enabling faster decisions and reducing executive escalation noise.</p>
+                </div>
+            </div>
+            
             <div class="story-grid">
                 <div class="story-letter">A</div>
                 <div class="story-content">
-                    <h4>Analysis</h4>
-                    <p>Developed 3-option framework comparing total landed cost, schedule risk, quality control capability, and IP protection. Modeled financial impact across 6-month and 24-month horizons. Identified critical dependencies for each path.</p>
+                    <h4>Action</h4>
+                    <p>Implemented standardized operating rhythm across all programs with weekly cross-functional reviews, integrated RAID tracking, and decision-ready executive summaries. Created escalation thresholds with pre-packaged options for leadership.</p>
                 </div>
             </div>
+            
             <div class="story-grid">
-                <div class="story-letter">O</div>
+                <div class="story-letter">R</div>
                 <div class="story-content">
-                    <h4>Outcome</h4>
-                    <p>Recommended hybrid approach: domestic pilot for first 10K units to stabilize yield, then transfer to offshore CM. Decision made in 1 week with full stakeholder alignment. Approach reduced schedule risk while achieving long-term cost targets.</p>
+                    <h4>Result</h4>
+                    <p>Improved schedule adherence from 82% to 95% through earlier risk identification. Reduced decision latency by 30% via structured trade-off framing. Eliminated 60% of reactive escalations through proactive status visibility.</p>
                 </div>
             </div>
         </div>
 
         <div class="impact-box">
-            <div class="impact-title">Decision Impact Metrics</div>
+            <div class="impact-title">Business Impact</div>
             <ul class="impact-list">
-                <li>Average decision cycle time reduced from 4 weeks to 1.5 weeks through structured frameworks</li>
-                <li>95% of major decisions reached consensus without escalation or rework</li>
-                <li>Post-decision tracking showed 85% of outcomes matched initial projections</li>
+                <li>Fewer surprises at executive level through predictable reporting cadence</li>
+                <li>Higher leadership trust in program management function</li>
+                <li>Faster decisions with clear accountability and trade-off visibility</li>
+                <li>Reduced churn and rework through early alignment on priorities</li>
             </ul>
         </div>
 
         <div class="page-nav">
-            <a href="governance.html" class="nav-link">
-                <i data-lucide="arrow-left" size="16"></i>
-                Program Governance
+            <a href="suppliers.html" class="nav-link">
+                <i data-lucide="arrow-left" size="18"></i>
+                Previous: Supplier Execution
             </a>
-            <a href="product-technology.html" class="nav-link next">
-                Product Development
-                <i data-lucide="arrow-right" size="16"></i>
+            <a href="decision-making.html" class="nav-link next">
+                Next: Decision Making
+                <i data-lucide="arrow-right" size="18"></i>
             </a>
         </div>
     </main>
@@ -236,8 +330,6 @@
     <footer>
         <div class="footer-left">San Francisco Bay Area · Hardware · Manufacturing · Operations</div>
         <div class="footer-right">
-            <a class="social-link">LinkedIn</a>
-            <a class="social-link">Email</a>
         </div>
     </footer>
 
@@ -280,60 +372,50 @@
             constructor() {
                 this.reset();
             }
-
             reset() {
                 this.x = Math.round((Math.random() * window.innerWidth) / GRID_SIZE) * GRID_SIZE;
                 this.y = Math.round((Math.random() * window.innerHeight) / GRID_SIZE) * GRID_SIZE;
                 this.direction = Math.floor(Math.random() * 4);
-                this.speed = 0.08;
+                this.speed = 0.1;
                 this.opacity = 0;
                 this.targetOpacity = Math.random() * 0.08 + 0.02;
                 this.path = [{x: this.x, y: this.y}];
                 this.segmentLength = 0;
-                this.maxSegment = Math.random() * 4 + 3;
+                this.maxSegment = Math.random() * 3 + 2;
             }
-
             update() {
                 if (this.opacity < this.targetOpacity) {
                     this.opacity += 0.002;
                 }
-
                 switch(this.direction) {
                     case 0: this.y -= this.speed; break;
                     case 1: this.x += this.speed; break;
                     case 2: this.y += this.speed; break;
                     case 3: this.x -= this.speed; break;
                 }
-
                 this.segmentLength += this.speed / GRID_SIZE;
-
                 if (this.segmentLength >= this.maxSegment) {
                     if (Math.random() > 0.5) {
                         const turn = Math.random() > 0.5 ? 1 : -1;
                         this.direction = (this.direction + turn + 4) % 4;
                     }
                     this.segmentLength = 0;
-                    this.maxSegment = Math.random() * 4 + 3;
+                    this.maxSegment = Math.random() * 3 + 2;
                     this.path.push({x: this.x, y: this.y});
                     if (this.path.length > 4) this.path.shift();
                 }
-
-                if (this.x < -100 || this.x > width + 100 || 
-                    this.y < -100 || this.y > height + 100) {
+                if (this.x < -100 || this.x > width + 100 || this.y < -100 || this.y > height + 100) {
                     this.reset();
                 }
             }
-
             draw() {
                 const accentColor = getComputedStyle(document.body).getPropertyValue('--accent').trim();
-                
                 ctx.beginPath();
                 ctx.strokeStyle = accentColor;
                 ctx.globalAlpha = this.opacity;
                 ctx.lineWidth = 0.5;
                 ctx.lineCap = 'round';
                 ctx.lineJoin = 'round';
-
                 if (this.path.length > 0) {
                     ctx.moveTo(this.path[0].x, this.path[0].y);
                     for (let point of this.path) {
@@ -342,7 +424,6 @@
                     ctx.lineTo(this.x, this.y);
                 }
                 ctx.stroke();
-
                 ctx.globalAlpha = 1;
             }
         }
